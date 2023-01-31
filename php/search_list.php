@@ -1,7 +1,7 @@
 <?php
 $ch = curl_init();
 $url = 'http://openapi.kepco.co.kr/service/EvInfoServiceV2/getEvSearchList'; /*URL*/
-$queryParams = '?' . urlencode('serviceKey') . '=gyTy%2BvYdts%2B5BQzMMQKu8GM3Uz0fCewfj4LgBcpowoEQt2%2B0Pa%2B3oEgpNdxTxho%2BjOP0KJGwxzshwzmRHnsXvg%3D%3D'; /*Service Key*/
+$queryParams = '?' . urlencode('serviceKey') . '=B3xAD2Ck93FPbCmJPTuhYuSOZLrtbLBz0hZ5w5JVvwq7wAZP2jpuRIYQUkFrcRExXxZlp%2BQWeN5nObGl3RMvTg%3D%3D'; /*Service Key*/
 $queryParams .= '&' . urlencode('pageNo') . '=' . urlencode('1'); /**/
 $queryParams .= '&' . urlencode('numOfRows') . '=' . urlencode('10'); /**/
 $queryParams .= '&' . urlencode('addr') . '=' . urlencode('전라남도 나주시 빛가람동 120'); /**/
