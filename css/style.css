@@ -174,3 +174,15 @@ section.bar-sec .near-btns button {
 section.bar-sec .near-btns em {
   font-style: normal;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 0.5rem;
+  width: 100%;
+}
+footer .center {
+  text-align: center;
+  padding: 1rem;
+}
